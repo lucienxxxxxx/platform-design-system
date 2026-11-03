@@ -1,0 +1,7 @@
+# shadcn/ui, Base UI and AI tooling
+
+The official shadcn skill is separate: https://ui.shadcn.com/docs/skills and https://github.com/shadcn-ui/ui/tree/main/skills/shadcn . It is not bundled here. If available, invoke/read it under host skill rules. Otherwise consult official docs and, when installation is authorized and possible, follow the official instructions, currently `pnpm dlx skills add shadcn/ui`. Choose project/user scope explicitly. If offline, use local project context and report that the official skill was unavailable; do not claim installation.
+
+Inspect `components.json`, package manager/lockfile, framework, installed component source, theme CSS, aliases and chosen primitives first. Use the project runner and current version docs. `shadcn info --json`, `docs`, `search`, `view`, `add` and `diff` can assist. Review source and dependencies. Do not change the primitive library or overwrite local customizations without intent. Installed source needs comparison and merging for upstream updates.
+
+Choose tooling to match the actual task; shadcn is optional. Verify Base UI APIs and state attributes at https://base-ui.com/react/overview/quick-start and https://base-ui.com/react/handbook/animation; theming: https://ui.shadcn.com/docs/theming . The shadcn MCP server is a separate optional integration: https://ui.shadcn.com/docs/mcp . Do not install dependencies, configure servers, publish registries or migrate merely due to this skill's invocation. Review third-party registry items before installation.
